@@ -2,18 +2,12 @@
     padding: 10rem 0;
 }
 
-#menu .section-title,
-#kind-coffee .section-title,
-#company .section-title,
-#blog .section-title {
+.section-title {
     text-align: center;
     margin-bottom: 40px;
 }
 
-#menu .section-title h2,
-#kind-coffee .section-title h2,
-#company .section-title h2,
-#blog .section-title h2 {
+.section-title h2 {
     font-size: 3rem;
 }
 
@@ -278,6 +272,13 @@ footer .footer-social a:hover {
     #about-us .video-bg {
         display: block !important;
     }
+    #home .carousel-control-prev {
+        left: 0 !important;
+    }
+
+    #home .carousel-control-next {
+        right: 0 !important;
+    }
 
 }
 
@@ -285,6 +286,13 @@ footer .footer-social a:hover {
 @media (max-width: 767.98px) {
     #about-us .video-bg {
         display: block !important;
+    }
+    #home .carousel-control-prev {
+        left: 0 !important;
+    }
+
+    #home .carousel-control-next {
+        right: 0 !important;
     }
 }
 
@@ -319,6 +327,13 @@ footer .footer-social a:hover {
 
     #about-us .video-bg {
         display: none;
+    }
+    .carousel-control-prev {
+        left: 0 !important;
+    }
+
+    carousel-control-next {
+        right: 0 !important;
     }
 
     /*#blog .container .row .even{*/

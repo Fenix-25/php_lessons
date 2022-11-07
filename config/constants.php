@@ -3,13 +3,17 @@
 const VIEW_DIR = ROOT_DIR . '/views';
 const PAGES_DIR = VIEW_DIR . '/pages';
 const PARTS_DIR = VIEW_DIR . '/parts';
+const APP_DIR = ROOT_DIR . '/app';
 
 // DataBase constants
 const HOST = 'localhost';
 const DB_NAME = 'php_lesson';
 const USER = 'root';
-const PASSWORD = 'root';
+const PASSWORD = '';
 const DSN = 'mysql:host=' . HOST . '; dbname=' . DB_NAME;
+const OPT = [
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+];
 
 define("DOMAIN", $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST']);
 

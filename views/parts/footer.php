@@ -49,7 +49,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form action="" method="GET" >
+                <form action="" method="GET">
                     <div class="mb-3">
                         <label for="recipient-name" class="col-form-label">Recipient:</label>
                         <input type="text" class="form-control" id="recipient-name">
