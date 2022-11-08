@@ -12,5 +12,3 @@ function getProducts(): bool|array
     $query->execute();
     return $query->fetchAll();
 }
-
-var_dump(getProducts());
