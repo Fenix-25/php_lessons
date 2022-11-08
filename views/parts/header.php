@@ -26,6 +26,10 @@
                     <a href="#menu" class="nav-link">Coffee</a>
                     <a href="#kind-coffee" class="nav-link">Gallery</a>
                     <a href="#blog" class="nav-link">Blog</a>
+                    <a href="#cart" class="nav-link cart">
+                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                        <span class="circle">0</span>
+                    </a>
                 </nav>
             </div>
         </div>
